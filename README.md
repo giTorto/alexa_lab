@@ -45,8 +45,12 @@ Now you have to configure a Skill:
 Set up your echo using same account as above, following the instructions. If you use a different account you will not be able to test your app
 
 
-Create an Alexa Skill through UI:
+# Create an Alexa Skill through UI:
  - first invocation name and name
  - intent schema
  - build
  - set the endpoint
+
+
+# References:
+https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development
