@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "memory game",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "YesIntent",
+           "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "samples": [],
+          "slots": [
+            {
+              "name": "first",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "second",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "third",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "types": []
+        }
+      ]
+    }
+  }
+}
