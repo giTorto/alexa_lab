@@ -1,0 +1,753 @@
+affirm uh yes im looking for a cheap restaurant in the west part of town
+affirm yeah a cheap restaurant serving international food
+affirm correct
+affirm ye
+affirm uh yes restaurant that serves danish food
+affirm let's do it
+affirm yeah
+affirm yes that sells korean food
+affirm yes can i have can i get swedish food in any area
+affirm yes id like an expensive restaurant in the east part of town
+affirm uh yes a cheap restaurant
+affirm yes that serves korean food
+affirm um yes
+affirm yes knocking
+affirm yes italian food
+affirm yes in the moderately priced
+affirm thats correct gastropub food
+affirm uh yes im looking for a cheap restaurant that serves medetanian food
+affirm yes yes
+affirm uh yes can i find a restaurant in the east part of town that serves chinese
+affirm uh yes im looking for malaysian food
+affirm right
+affirm yea
+affirm yes
+affirm yes i am in the east part of town right now and i am looking for any place that serves indonesian food
+affirm yes south part of town
+affirm yes right
+affirm yes and i dont care about the price range
+affirm yeah i need to find
+affirm uh yes i need the north part of town
+affirm uh yeah im looking for a restaurant in the south part of town and that serves kosher food
+affirm yea thank you good bye
+affirm yes can i have
+affirm yes and in french please
+affirm uh yes can i find a moderately priced restaurant and it serve it should serve brazilian food
+affirm right on good bye peace
+affirm yes in the west part of town
+affirm yes barbecue food
+affirm i love that
+affirm yes spanish restaurant
+
+deny no danish food
+deny no north
+deny no
+deny no new selection
+deny no im looking for pan asian
+deny no thanks
+deny no i want american food
+deny no thank you good bye
+deny no thank you
+deny no spanish food
+deny no im looking in the south of the town
+deny no indian food
+deny uh no
+deny breath no american food
+deny no the south part
+deny oh no and cheap
+deny no spanish
+deny no british food
+deny no south part of town
+deny no im looking for one that serves vietnamese food
+deny do you have something else
+deny no chinese
+deny no i want halal food
+deny no hungarian food
+deny no center
+deny no this does not work for me
+deny no thai
+
+greet hi there
+greet hello there
+greet hey
+greet hi
+greet hey bot
+greet good morning
+greet goodmorning
+greet hello
+greet goodevening
+greet goodafternoon
+greet good evening
+greet morning
+greet good afternoon
+
+inform {afghan|cuisine} food
+inform how bout {asian oriental|cuisine}
+inform im looking for a {moderately|price:moderate} priced restaurant in the {east|location} part of town
+inform find {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform what about {indian|cuisine} food
+inform {south|location} part of town
+inform uh how about {turkish|cuisine} type of food
+inform yea im looking for a really {cheap|price} restaurant
+inform a {moderate|price} restaurant in the {west|location} part of town
+inform um {english|cuisine}
+inform im looking for {tuscan|cuisine} food
+inform i need a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform {cheap|price} restaurant in the {east|location} of town
+inform id like {moderately|price:moderate} priced {moroccan|cuisine} food
+inform im looking for an {expensive|price} restaurant in the {east|location} town
+inform {moderately|price:moderate} priced food
+inform restaurant {north|location} part of town {seafood|cuisine}
+inform {moderately|price:moderate} priced restaurant in the {south|location} part of town
+inform {north|location} part of town
+inform {north|location} part
+inform {french|cuisine} food
+inform serves {british|cuisine} food
+inform i need a {moderately|price:moderate} priced restaurant
+inform i want a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform i want a {cheap|price} restaurant in the {south|location} part of town
+inform id like a restaurant in any area that it serves {canapes|cuisine}
+inform im looking for a restaurant in the {south|location} part of town serving {jamaican|cuisine} food
+inform um what about {italian|cuisine} food
+inform im looking for a {cheap|price} restaurant in the {north|location} part of town
+inform the {south|location} part of town
+inform im looking for {corsica|cuisine} food
+inform {south|location}
+inform im looking for an {expensive|price} restaurant that serves sea food
+inform ah im looking for a {cheap|price} restaurant
+inform im looking for {world|cuisine} food
+inform im looking for a restaurant that serves {french|cuisine} food
+inform how about {indian|cuisine} food
+inform breath can i get a restaurant serving {chinese|cuisine} food
+inform {irish|cuisine} food
+inform im looking for a restaurant in the {west|location} part of town serving {italian|cuisine} food
+inform restaurant {south|location} part of town {english|cuisine} food
+inform {spanish|cuisine} food
+inform how bout one that serves {portuguese|cuisine} food and is cheap
+inform {german|cuisine}
+inform i need a {moderately|price:moderate} priced restaurant in the {north|location} of town
+inform {korean|cuisine} food
+inform im looking for {romanian|cuisine} food in the {expensive|price} price range
+inform i want to find a {moderately|price:moderate} priced restaurant that serves {canapes|cuisine} food
+inform im looking for a {moderately|price:moderate} priced labonese restaruant
+inform looking for a {moderately|price:moderate} priced restaurant
+inform id like to find an {expensive|price} restaurant
+inform {gastropub|cuisine}
+inform i want a restaurant that serves {french|cuisine} food
+inform restaurant {north|location} part of town fast food
+inform how about {modern european|cuisine} type of food
+inform im looking for a restaurant on the {east|location} part of town that serves scandinavia food
+inform the {west|location} part of town
+inform i want to find a {cheap|price} restaurant and it should serve {scandinavian|cuisine} food
+inform how {european|cuisine}
+inform how about {european|cuisine} food
+inform looking for something {moderately|price:moderate} priced in the {north|location} side of town
+inform the {south|location} part of town id like a restaurant that serves {traditional|cuisine} food
+inform i need a {cheap|price} restaurant that serves {indonesian|cuisine} food
+inform {modern european|cuisine}
+inform id like to find a {moderately|price:moderate} priced restaurant in the {east|location} part of town
+inform looking for a {moderately|price:moderate} priced restaurant that serves {brazilian|cuisine}
+inform i would like {modern european|cuisine} food
+inform hi looking for a {moderately|price:moderate} priced restaurant
+inform looking for a restaurant that serves {lebanese|cuisine} food
+inform {east|location} part of town
+inform {west|location}
+inform {cheap|price} restaurant in the {west|location} part of town
+inform {portuguese|cuisine}
+inform {european|cuisine}
+inform {expensive|price} food in the {south|location} of town
+inform i want an {expensive|price} restaurant that serves {polish|cuisine} food
+inform id like an {expensive|price} {thai|cuisine} restaurant
+inform i want to find a {moderately|price:moderate} priced restaurant that serves {moroccan|cuisine} food
+inform {afghan|cuisine}
+inform {expensive|price} restaurant {scottish|cuisine} food
+inform how about {vietnamese|cuisine}
+inform hi im looking for {mexican|cuisine} food
+inform can i have a {moderately|price:moderate} priced restaurant
+inform how about {indian|cuisine} type of food
+inform i would like a {cheap|price} restaurant in the {north|location} part of town
+inform a {cheap|price} restaurant in the {west|location} part of town
+inform {polynesian|cuisine} food
+inform {mexican|cuisine}
+inform looking for a {cheap|price} restaurant in the {south|location} part of town
+inform instead could it be for {four|people:4} people
+inform restaurant any area {japanese|cuisine} food
+inform im looking for a restaurant in the {north|location} part of town
+inform what about {thai|cuisine} food
+inform how about {asian oriental|cuisine} food
+inform im looking for a restaurant that serves {japanese|cuisine} food
+inform im looking for a restaurant in the {north|location} part of town that serves {belgian|cuisine} food
+inform im looking for a restaurant that serves {turkish|cuisine} food
+inform restaurant in {west|location} part of town serving {corsica|cuisine} food
+inform {moderately|price:moderate} priced serving gastro pub
+inform is there a restaurant serving {british|cuisine} food
+inform {world|cuisine} food
+inform im looking for something serves {japanese|cuisine} food
+inform im looking for an {expensive|price} restaurant and it should be in the {south|location} part of town
+inform id like a {greek|cuisine} restaurant in the {east|location} part of town
+inform im looking for an {expensive|price} restaurant serving {malaysian|cuisine} food
+inform i want to find a restaurant serving {world|cuisine} food
+inform im looking for a restaurant in the {south|location} part of town that serves pan asian food
+inform looking for an {expensive|price} restaurant that serves {afghan|cuisine} food
+inform actually i would prefer in {madrid|location}
+inform what is a good {cheap|price} restaurant that serves {portuguese|cuisine} food
+inform {asian oriental|cuisine} food
+inform im looking for a restaurant that serves {russian|cuisine} food
+inform {corsica|cuisine}
+inform id like an {expensive|price} restaurant that serves mediteranean food
+inform {moderately|price:moderate} priced in {south|location} part
+inform {moderate|price} price {west|location} part of town
+inform {north|location}
+inform {asian oriental|cuisine}
+inform restaurant in the {east|location} part of town serving {basque|cuisine} food
+inform i am looking for a {cheap|price} restaurant and it should be in the {west|location} part of town
+inform {moderate|price} priced
+inform how about {italian|cuisine}
+inform looking for {spanish|cuisine} food in the center of town
+inform hi im looking for a {moderately|price:moderate} priced restaurant
+inform im looking for a restaurant in any area it should serve {gastropub|cuisine} food
+inform {welsh|cuisine} food
+inform i want {vegetarian|cuisine} food
+inform im looking for {swedish|cuisine} food
+inform um how about {chinese|cuisine} food
+inform a restaurant in the {east|location} part of town that serves {caribbean|cuisine} food
+inform i need a restaurant in the {east|location} part of town
+inform in the {west|location} part
+inform {expensive|price} restaurant serving {world|cuisine} food
+inform can i have a {seafood|cuisine} restaurant please
+inform how about {italian|cuisine} food
+inform how about {korean|cuisine}
+inform uh {cheap|price} restaurant in {north|location} part of town
+inform {corsica|cuisine} food
+inform {scandinavian|cuisine}
+inform {cheap|price} restaurant that serves {vegetarian|cuisine} food
+inform what about {italian|cuisine}
+inform how about {portuguese|cuisine} food
+inform im looking for an {expensive|price} restaurant serving {french|cuisine} food
+inform looking for a {moderately|price:moderate} priced restaurant and it needs to be in the {south|location} part of town
+inform {south|location} part
+inform i would like to find a {moderately|price:moderate} priced restaurant in the {north|location} part of town
+inform {tuscan|cuisine} food
+inform how about uh {gastropub|cuisine}
+inform im looking for a restaurant in the {east|location} part that serves {creative|cuisine} food
+inform im looking for a restaurant in the {south|location} part of town that serves {malaysian|cuisine} food
+inform i'd like to book a table for {two|people:2} in {madrid|location} with {spanish|cuisine} cuisine in a {moderate|price:mid} price range
+inform i need a {cheap|price} restaurant in the {west|location} part of town
+inform im looking for a restaurant that serves {unusual|cuisine} food
+inform im looking for a restaurant in the {south|location} part of town and {danish|cuisine} food
+inform how about {spanish|cuisine} food
+inform im looking for a {cheap|price} restaurant and it should be in the {south|location} part of town
+inform im looking for a {cheap|price} restaurant that serves {vietnamese|cuisine} food
+inform {spanish|cuisine}
+inform im looking for a restaurant serving {romanian|cuisine} food
+inform im looking for {lebanese|cuisine} food
+inform i need a {moderately|price:moderate} priced restaurant in the {north|location} part of town
+inform im looking for a restaurant serving {international|cuisine} food
+inform im looking for a restaurant in the center that serves {turkish|cuisine} food
+inform {north american|cuisine}
+inform hello im looking for an {expensive|price} restaurant
+inform instead could it be with {indian|cuisine} cuisine
+inform {expensive|price}
+inform im looking for a {thai|cuisine} restaurant
+inform want something in the {south|location} side of town thats {moderately|price:moderate} priced
+inform im looking for {moroccan|cuisine} food
+inform looking for {cheap|price} barbecue food
+inform {west|location} part of town
+inform how about an expensive restaurant that serves {european|cuisine} food
+inform we will be {eight|people:8}
+inform im looking for {greek|cuisine} food
+inform find me a cheap {vietnamese|cuisine} restaurant
+inform serves {halal|cuisine} food
+inform {international|cuisine} food in the {east|location} part of town
+inform {south|location} of town
+inform im looking for something {cheap|price}
+inform im looking for a restaurant in the {east|location} part of town serving {catalan|cuisine} food
+inform i need a restaurant in the {west|location} part of town
+inform {moderate|price} restaurant {kosher|cuisine} food
+inform what about the {west|location} part of town
+inform hi im looking for a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform the {indian|cuisine} food
+inform looking for an {expensive|price} restaurant in the {south|location} part of town
+inform uh a restaurant in the {south|location} part of town
+inform i want {malaysian|cuisine} food in any area
+inform hello {chinese|cuisine} type of food
+inform id like to find a restaurant that serves {korean|cuisine} food
+inform looking for a restaurant in the {south|location} part of town that serves {australian|cuisine} food
+inform uh how about {italian|cuisine}
+inform {greek|cuisine} food
+inform im looking for a {cheap|price} restaurant serving {modern european|cuisine} type of food
+inform yea im looking for a really {cheap|price} restaurant in the {east|location} part of town
+inform i love {indian|cuisine} food
+inform how about {korean|cuisine} food
+inform {cheap|price} {european|cuisine} food
+inform hi im looking for an {expensive|price} restaurant in the {south|location} part of town
+inform im looking for {belgian|cuisine} food
+inform breath i want to find a restaurant in the {north|location} part of town
+inform how about {gastropub|cuisine} food
+inform {mediterranean|cuisine} food
+inform {venetian|cuisine} food
+inform {moderate|price} restaurant {south|location} part of town
+inform ah {centre|location}
+inform im looking for a {cheap|price} pan asian food
+inform how about {chinese|cuisine} food
+inform looking for {lebanese|cuisine} food in the city center
+inform {singaporean|cuisine} food
+inform {east|location}
+inform looking for a {cheap|price} restaurant that serves steak house food
+inform um what about {european|cuisine}
+inform uh how about {north american|cuisine}
+inform actually i would prefer for {eight|people:8} people
+inform {cheap|price} price range
+inform {belgian|cuisine} food
+inform i need a {cheap|price} restaurant in the {east|location} part of town
+inform im looking for an {expensive|price} restaurant that serves {irish|cuisine} food
+inform {scandinavian|cuisine} food
+inform what about in the {west|location} area
+inform on the {south|location} part of town
+inform {east|location} noise
+inform how about {british|cuisine} food
+inform how about {international|cuisine} food
+inform uh okay how about {french|cuisine} food
+inform id like a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform im looking for a restaurant in the {west|location} part of town that serves {moroccan|cuisine} food
+inform {expensive|price} restaurant {east|location} part of town
+inform um i dont care i just want {traditional|cuisine} food
+inform okay is there any {portuguese|cuisine} food
+inform how about {french|cuisine}
+inform im looking for {japanese|cuisine} food
+inform i want a {cheap|price} restaurant that serves {unusual|cuisine} food
+inform what about {chinese|cuisine} food
+inform how about {english|cuisine} food in the north part of town
+inform {turkish|cuisine}
+inform how about {mediterranean|cuisine} food
+inform {french|cuisine}
+inform actually i would prefer for {six|people:6} people
+inform uh {italian|cuisine}
+inform {cantonese|cuisine} food
+inform im looking for a restaurant that serves {african|cuisine} food
+inform um {moderate|price}
+inform {danish|cuisine} food
+inform {brazilian|cuisine} food
+inform lets see im looking for a restaurant in the {north|location} part of town that serves {vietnamese|cuisine} food
+inform {venetian|cuisine}
+inform i want a restaurant serving {greek|cuisine} food
+inform can you book a table in {london|location} in a {expensive|price:hi} price range with {spanish|cuisine} cuisine for {two|people:2}
+inform {italian|cuisine} food
+inform im looking for a restaurant in the {south|location} part of town serving {austrian|cuisine} food
+inform a restaurant with {afghan|cuisine} food
+inform im looking for {traditional|cuisine} food
+inform im looking for an {expensive|price} restaurant
+inform can i find an {expensive|price} restaurant that serves {traditional|cuisine} food
+inform {vietnamese|cuisine} food
+inform noise anything {expensive|price}
+inform i want to find a {cheap|price} re
+inform im looking for a restaurant in the center of town that serves {african|cuisine} food
+inform is there a restaurant that has {british|cuisine} food
+inform im looking for a restaurant in the {east|location} part of town that serves {traditional|cuisine} food
+inform {japanese|cuisine}
+inform {italian|cuisine}
+inform {hungarian|cuisine} food
+inform in the {south|location} part of town
+inform un {unusual|cuisine} food
+inform im looking for an {italian|cuisine} restaurant in the {east|location} part of town
+inform {polynesian|cuisine}
+inform {christmas|cuisine} food
+inform {korean|cuisine}
+inform im looking for a {moderately|price:moderate} priced restaurant serving {fusion|cuisine} food
+inform looking for a {moderately|price:moderate} priced restaurant that serves {unusual|cuisine} food
+inform is there anything in the {cheap|price} price range
+inform the {east|location}
+inform oh i need to be in the {north|location}
+inform how about {turkish|cuisine} food
+inform i want a restaurant in the {north|location} part of town that serves {vietnamese|cuisine} food
+inform actually i would prefer in {bombay|location}
+inform how about {italian|cuisine} type of food
+inform im looking for a {moderately|price:moderate} priced restaurant and it should serve {polynesian|cuisine} food
+inform {polish|cuisine} food
+inform i want to find a {moderately|price:moderate} priced restaurant in the {east|location} part town
+inform im looking for a restaurant in the {west|location} part of town that serves canape food
+inform looking for a {cheap|price} restaurant that serves {creative|cuisine} food
+inform im looking for a restaurant in the {east|location} part of the town with {indian|cuisine} asian food
+inform {thai|cuisine}
+inform how about {persian|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant that serves {tuscan|cuisine} food
+inform {cheap|price} restaurant
+inform how about {british|cuisine} type food
+inform {west|location} of town
+inform what about {vietnamese|cuisine} type of food
+inform any kind of food id like a {cheap|price} restaurant
+inform i would like {steakhouse|cuisine} food
+inform {polish|cuisine}
+inform how about {modern european|cuisine} food
+inform like to find a restaurant in the {east|location} part of town and it should serve {indian|cuisine} food
+inform what about {expensive|price}
+inform ok what about {indian|cuisine}
+inform {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform {south|location} {expensive|price}
+inform im looking for a restaurant in the {east|location} part of town
+inform noise um in the {east|location} part of town
+inform how about {gastropub|cuisine} type of food
+inform uh what about {portuguese|cuisine} food
+inform {expensive|price} restaurant in the {south|location} part of town
+inform what about {vietnamese|cuisine} food
+inform i want to find a restaurant that serves {world|cuisine} food
+inform {moderate|price} price range please
+inform im looking for {moderately|price:moderate} priced restaurant serving {austrian|cuisine} food
+inform i am looking for a restaurant serving {afghan|cuisine} food
+inform i would like a restaurant that serves {korean|cuisine} food
+inform restaurant in the {north|location} part of town that serves {hungarian|cuisine} food
+inform the {south|location}
+inform how about {modern european|cuisine}
+inform i want to find a restaurant in the center and it should serve {lebanese|cuisine} food
+inform {chinese|cuisine}
+inform im looking a restaurant in the {east|location} part of town
+inform im looking for a {cheap|price} restaurant with {spanish|cuisine} food
+inform {greek|cuisine}
+inform {north|location} part of town serving {gastropub|cuisine} food
+inform is there one that serves {indian|cuisine} food
+inform {unusual|cuisine} food
+inform im looking for a {cheap|price} restaurant in the {west|location} part of town
+inform im looking for a restaurant that serves {polynesian|cuisine} food
+inform {moderately|price:moderate} restaurant
+inform what about {asian oriental|cuisine}
+inform {cheap|price} restaurant {north|location} part of town
+inform iam looking for an {expensive|price} restaurant and it should be in the {south|location} part of town
+inform looking for a {japanese|cuisine} restaurant in the center
+inform what about {portuguese|cuisine} food
+inform fancy restaurant {moroccan|cuisine} food
+inform what about {british|cuisine} food
+inform {indian|cuisine}
+inform what about {indian|cuisine}
+inform {moderately|price:moderate}
+inform i need a restaurant in the center of town that includes {international|cuisine} food
+inform im looking for an {expensive|price} restaurant and it should be {east|location} part of town
+inform {hungarian|cuisine}
+inform the {south|location} part
+inform how about an {indian|cuisine} restaurant in the north part of town
+inform okay how about a {gastropub|cuisine}
+inform how about {indian|cuisine} type food
+inform an {expensive|price} restaurant
+inform {world|cuisine}
+inform {cheap|price} restaurant {east|location} part of town
+inform the {east|location} part of town
+inform im looking for a {moderately|price:moderate} priced restaurant that serves {european|cuisine} food
+inform {crossover|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant
+inform i need a {moderately|price:moderate} priced restaurant in the {south|location} part of town
+inform {expensive|price} european food
+inform uh {indian|cuisine}
+inform im looking for something {moderately|price:moderate} priced
+inform what about {international|cuisine} food
+inform um in the {south|location} part of town and its {cheap|price}
+inform i would like to find a restaurant in the center and it should serve {korean|cuisine} food
+inform dont care {expensive|price}
+inform im looking for {moderately|price:moderate} priced restaurant and it should serve {halal|cuisine} food
+inform system {european|cuisine} food
+inform i would like {european|cuisine} food
+inform how about {korean|cuisine} foo
+inform {thai|cuisine} type food
+inform i want to find a {cheap|price} restaurant and it should be in the {east|location} part of town
+inform a {moderately|price:moderate} priced restaurant in the {south|location} part of town
+inform what about {modern european|cuisine} type food
+inform im looking for a restaurant in the center part of town that serves {european|cuisine} food
+inform {moderately|price:moderate} priced restaurant that serves {creative|cuisine} food
+inform im looking for an {expensive|price} restaurant in the {east|location} part of town
+inform {moderately|price:moderate} priced restaurant serving {indian|cuisine} food
+inform {tuscan|cuisine} food {south|location} part of town
+inform {chinese|cuisine} food
+inform i need {indian|cuisine} food
+inform may i have a table in a {moderate|price:mid} price range with {spanish|cuisine} food in {bombay|location} for {two|people:2} people
+inform looking for an {expensive|price} restaurant that serves {indonesian|cuisine} food
+inform looking for something on the {south|location} side
+inform id like to find a restaurant in the {north|location} part of town that serves {german|cuisine} food
+inform im looking for a restaurant in any area that serves {bistro|cuisine} food
+inform can i have {greek|cuisine} food
+inform {vietnamese|cuisine}
+inform {portuguese|cuisine} food
+inform {lebanese|cuisine} food
+inform noise looking for an {expensive|price} restaurant
+inform i need a {moderately|price:moderate} priced restaurant serving {fusion|cuisine} food
+inform can i find a restaurant that serves {international|cuisine} food
+inform i want to find a {moderately|price:moderate} priced restaurant
+inform how about {spanish|cuisine} types of food
+inform {caribbean|cuisine} food
+inform what about a restaurant that serves {chinese|cuisine} food
+inform im looking for a restaurant serving {asian oriental|cuisine} food
+inform can you make a restaurant reservation with {italian|cuisine} food for {eight|people:8} in {bombay|location} in a {expensive|price} price range
+inform im looking for an expensive restaurant and it should serve {international|cuisine} food
+inform im looking for a restaurant that serves {swiss|cuisine} food
+inform {expensive|price} restaurant {welsh|cuisine} food
+inform im looking for an {expensive|price} restaurant in the {south|location} part of town
+inform im looking for a restaurant in the {west|location} park of town that serves {australian|cuisine} food
+inform {moderately|price:moderate} pri
+inform i want to find a restaurant in the center that serves {lebanese|cuisine} food
+inform i need a {moderate|price} priced restaurant in the {north|location} part of town
+inform im looking for an {expensive|price} restaurant in the {east|location} of town
+inform hi im looking for an restaurant in the center that serves {korean|cuisine} food
+inform {thai|cuisine} food
+inform can you make a restaurant reservation in a {cheap|price:lo} price range in {london|location} with {spanish|cuisine} food for {eight|people:8} people
+inform {east|location} of town
+inform {cheap|price} restaurant in the {south|location} part of town
+inform could i have a {cheap|price} restaurant in the {east|location} part of town
+inform {international|cuisine}
+inform uh id like {steakhouse|cuisine} food
+inform how about {korean|cuisine} type food
+inform i want {expensive|price} food in the {east|location} part of town
+inform i'd like to book a table in a {cheap|price:lo} price range for {six|people:6} people with {spanish|cuisine} cuisine in {madrid|location}
+inform could i have a {moderately|price:moderate} priced restaurant in the {south|location} part of town
+inform for a restaurant in any area with {international|cuisine} food
+inform what about {modern european|cuisine}
+inform could i have a {cheap|price} restaurant
+inform im looking for a {cheap|price} restaurant in the {east|location} part of town
+inform {english|cuisine} food
+inform i would like a {cheap|price} restaurant
+inform im looking for a {cheap|price} restaurant that serves {german|cuisine} food
+inform {moderately|price:moderate} priced restaurant
+inform how about {portuguese|cuisine}
+inform im looking for something {expensive|price}
+inform how about {french|cuisine} food
+inform what about a {chinese|cuisine} restaurant in the north of town
+inform noise ah {gastropub|cuisine} food
+inform {jamaican|cuisine}
+inform {expensive|price} restaurant serving {portuguese|cuisine} food
+inform im looking for {portuguese|cuisine} food
+inform {catalan|cuisine}
+inform how about {turkish|cuisine}
+inform i need {cheap|price} {hungarian|cuisine} restaurant
+inform id like a {cheap|price} restaurant in the {north|location} part of town
+inform i want a {moderate|price} priced restaurant in the {south|location} of town
+inform a restaurant {cheap|price} {north|location} part of town
+inform for {six|people:6} please
+inform i need a {moderately|price:moderate} priced restaurant that serves {world|cuisine} food
+inform id like to find a {cheap|price} restaurant in the {west|location} part of town
+inform find a {cheap|price} restaurant
+inform {expensive|price} european
+inform id like a {moderately|price:moderate} priced restaurant that serves {cuban|cuisine} food please
+inform in the {north|location} part of town
+inform {turkish|cuisine} type of food
+inform im looking for a restaurant in any area that serves {welsh|cuisine} food
+inform {malaysian|cuisine} food
+inform how bout {chinese|cuisine} food
+inform {expensive|price} restaurants
+inform {moderately|price:moderate} priced in the {north|location} part of town
+inform the {east|location} part
+inform {cheap|price} restaurant {south|location} part of town
+inform {swiss|cuisine}
+inform how about {indian|cuisine}
+inform i want a restaurant in the {east|location} part of town that serves {singaporean|cuisine} food
+inform im looking for an {expensive|price} restaurant that serves signaporean food
+inform what about {korean|cuisine} food
+inform im looking for a restaurant in the {north|location} part of town that serves {african|cuisine} food
+inform {moderate|price}
+inform im looking for a {moderately|price:moderate} priced restaurant in the {north|location} part of town
+inform restaurant in the {west|location} part of town that serves {cuban|cuisine} food
+inform {european|cuisine} food
+inform can i get a restaurant with {vegetarian|cuisine} food
+inform i would like to find an {expensive|price} restaurant that serves {corsica|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant that serves {traditional|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant in the {south|location} of town
+inform {moderately|price:moderate} priced restaurant serving {moroccan|cuisine} food
+inform i am looking for a restaurant in the {south|location} part of town and it should serve {cantonese|cuisine} food
+inform uh {cheap|price} restaurant
+inform {moderately|price:moderate} priced in the {west|location}
+inform {indian|cuisine} type of food
+inform i would like a {cheap|price} restaurant in the {west|location} part of town
+inform i want to find a {cheap|price} restaurant
+inform uh a {cheap|price} restaurant in the {east|location} part of town
+inform im looking for a restaurant in the {north|location} part of town serving {indian|cuisine} food
+inform {moderately|price:moderate} priced restaurant that serves {thai|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform im looking for a restaurant in the {east|location} part of town that serves {afghan|cuisine} food
+inform {expensive|price} restaurant in the {east|location} part of town
+inform im looking for a {moroccan|cuisine} restaurant in the center of town
+inform im looking for a {moderately|price:moderate} priced restaurant in the {south|location} part of town
+inform {british|cuisine} expensive
+inform how about {cheap|price}
+inform in the {west|location} part of town
+inform in {cheap|price} restaurant
+inform i need a {cheap|price} restaurant in the {south|location} part of town
+inform in a {moderate|price:mid} price range please
+inform {belgian|cuisine}
+inform im looking for a {moderately|price:moderate} priced restaurant and it should be in the {north|location} of town
+inform hi im looking for a {cheap|price} restaurant in the {south|location} part of town
+inform {north american|cuisine} food
+inform how about {moderately|price:moderate} priced thai food
+inform restaurant in any area {international|cuisine} food
+inform {asian oriental|cuisine} type of food
+inform i want a {british|cuisine} restaurant in the {east|location} part of town
+inform {international|cuisine} food
+inform im looking for a restaurant in the center that serves {caribbean|cuisine} food
+inform {expensive|price} restaurant in the {east|location}
+inform i want {christmas|cuisine} food
+inform what about {french|cuisine} food
+inform {swedish|cuisine} food
+inform restaurant in the {south|location} part of town
+inform im looking for a restaurant that serves {gastropub|cuisine} food any price range
+inform im looking for a restaurant in the {south|location} part of town
+inform im looking for a restaurant in the {east|location} part of town thats {expensive|price}
+inform how about {vietnamese|cuisine} food
+inform with {british|cuisine} food
+inform id like an {expensive|price} restaurant
+inform {moderate|price} priced restaurant in the {north|location} part of town
+inform im looking for an {expensive|price} restaurant and it should be served {international|cuisine} food
+inform that serves {corsica|cuisine}
+inform im looking for a restaurant in the {north|location} part of town serving {malaysian|cuisine} food
+inform i need to find a restaurant in the {north|location} part of town that serves {jamaican|cuisine} food
+inform um im looking for a restaurant in the center part of town that serves {lebanese|cuisine} food
+inform what {asian oriental|cuisine} type of food
+inform looking for a {cheap|price} restaurant in the {east|location} part of town
+inform {cheap|price} {jamaican|cuisine}
+inform how about {asian oriental|cuisine}
+inform i need a {moderately|price:moderate} priced restaurant that serves bask food
+inform noise looking for an {expensive|price} restaurant in the {south|location} part of town
+inform {west|location} side
+inform looking for {afghan|cuisine} good
+inform im looking for a restaurant that serves {danish|cuisine} food
+inform yea i would like {korean|cuisine} food
+inform im looking for a restaurant in the {west|location} part of town that serves {jamaican|cuisine} food
+inform im looking for a restaurant in central it should serve {japanese|cuisine} food
+inform im looking for a {moderately|price:moderate} priced restaurant that serves {vietnamese|cuisine} food
+inform restaurant in the {west|location} part of town that serves airitran food
+inform {british|cuisine} food
+inform price over food {west|location} part of town
+inform restaurant {moderate|price} price
+inform in the {east|location} part of town
+inform im looking for an {expensive|price} restaurant and it should be the {east|location} part of town
+inform looking for a {cheap|price} restaurant in the {west|location} part of town
+inform i want a restaurant in the center that serves {seafood|cuisine}
+inform how about a restaurant in the east part of town that serves {indian|cuisine} food
+inform the {north|location}
+inform i would like {australian|cuisine} foo
+inform im looking for an {expensive|price} restaurant that serves {unusual|cuisine} food
+inform {mediterranean|cuisine}
+inform im looking for a {cheap|price} restaurant in the {south|location} part of town
+inform how about {chinese|cuisine}
+inform instead could it be with {french|cuisine} food
+inform {south|location} part of town please
+inform im looking for a {malaysian|cuisine} restaurant in the {north|location} part of town
+inform im looking for a {moderately|price:moderate} priced restaurant uh serving {halal|cuisine} food
+inform {cuban|cuisine} food
+inform looking for {moderately|price:moderate} priced {russian|cuisine} food
+inform id like a restaurant in the {south|location} part of town
+inform {moderately|price:moderate} priced restaurant in the {east|location} part of town
+inform im looking for a restaurant in any area that serves {russian|cuisine} food
+inform serving {modern european|cuisine} food
+inform how about {asian oriental|cuisine} type of food
+inform i want to find a {moderately|price:moderate} priced restaurant that serves {cuban|cuisine} food
+inform restaurant {east|location}
+inform {indian|cuisine} food
+inform a restaurant {south|location} part of town
+inform i want a {moderately|price:moderate} priced restaurant in the {north|location} part of town
+inform {expensive|price} restaurant {south|location} part of town
+inform how about {thai|cuisine} food
+inform {moderate|price} price
+inform {bistro|cuisine}
+inform im looking for a {expensive|price} restaurant in the {east|location} part of town
+inform i need a {cuban|cuisine} restaurant that is {moderately|price:moderate} priced
+inform i want to find a {moderately|price:moderate} priced restaurant and it should serve asian food
+inform what about {north american|cuisine} type of food
+inform {moderately|price:moderate} priced
+inform id like a restaurant in the {north|location} part of town that serves cross over food
+inform i want an {expensive|price} restaurant that serves sea food
+inform im looking for a restaurant that serves {bistro|cuisine} food
+inform {cheap|price} restaurants
+inform im looking for a {cheap|price} restaurant
+inform i want a restaurant in the {west|location} part of town that serves {australian|cuisine} food
+inform im looking for a restaurant in the {north|location} part of town serving {lebanese|cuisine} food
+inform {singaporean|cuisine}
+inform {cheap|price} {italian|cuisine} food
+inform noise restaurant {west|location} part of town {danish|cuisine} food
+inform {british|cuisine}
+inform im looking for a restaurant that serves {afghan|cuisine} food
+inform what about {european|cuisine} food
+inform its a restaurant in the south of town that serves {italian|cuisine} food
+inform i need a restaurant serving {corsica|cuisine} food
+inform something serving {swiss|cuisine} food
+inform im looking for a {korean|cuisine} restaurant in the {expensive|price} price range
+inform um an {expensive|price}
+inform i want a restaurant in the {moderate|price} price range
+inform breath im looking for a restaurant that serves {cuban|cuisine} food
+inform i want to find a restaurant in the {north|location} part of town
+inform {gastropub|cuisine} food
+inform i am looking for an {expensive|price} restaurant that serves
+inform {north|location} north part of town
+inform a {cheap|price} restaurant in the {south|location} part of town
+inform {cheap|price}
+inform {expensive|price} restaurant
+inform {scottish|cuisine}
+inform {fusion|cuisine} food
+inform id like to find a restaurant that serves {afghan|cuisine} food
+inform uh i want {cantonese|cuisine} food
+inform i would like a {moderately|price:moderate} priced restaurant in the {west|location} part of town
+inform im looking for an {expensive|price} restaurant that serves {greek|cuisine} food
+inform id like an {expensive|price} restaurant that serves bat food
+inform in the {east|location} part
+inform can you book a table in {rome|location} in a {moderate|price:mid} price range with {british|cuisine} food for {four|people:4} people
+inform {cheap|price} restaurant serving unintelligible food
+inform in the {west|location}
+inform {creative|cuisine} food
+inform im looking for a restaurant in the {east|location} part of town serving {japanese|cuisine} food
+inform im looking for a restaurant in the {north|location} part of town serving {jamaican|cuisine} food
+inform what about a {spanish|cuisine} restuarant
+inform im looking for a restaurant in any area that serves {polynesian|cuisine} food
+inform i want to find an {expensive|price} restaurant that serves {swedish|cuisine} food
+inform {european|cuisine} food any price
+inform with {french|cuisine} cuisine
+inform uh are there any that serves {mediterranean|cuisine}
+inform {cheap|price} restaurant that serves {german|cuisine} food
+inform i want a {moderately|price:moderate} priced restaurant that serves {mediterranean|cuisine} food
+inform {african|cuisine} food
+inform im looking for a restaurant in the {south|location} part of town serving {korean|cuisine} food
+inform i want to find a {expensive|price} restaurant in the {south|location} part of town
+inform i want a {moderately|price:moderate} priced
+inform {canapes|cuisine} food
+inform ok how about {chinese|cuisine} food
+inform i need a restaurant in the center of town that serves {spanish|cuisine} food
+inform uh {world|cuisine} food
+inform i need a {cheap|price} restaurant
+inform im looking for {thai|cuisine}
+
+request_info do you have their {address|info}
+request_info do you have its {phone number|info}
+request_info can i have their {phone number|info}
+request_info what is the {phone number|info} of the restaurant
+request_info what is their {address|info}
+request_info may i have the {address|info} of the restaurant
+request_info whats their {address|info}
+request_info do you have their {phone number|info}
+request_info give me their {phone number|info}
+request_info whats their {phone number|info}
+request_info do you have its {address|info}
+request_info may i have the {phone number|info} of the restaurant
+request_info what is their {phone number|info}
+request_info give me their {address|info}
+request_info can i have their {address|info}
+request_info what is the {address|info} of the restaurant
+
+thankyou um thank you good bye
+thankyou okay cool uh good bye thank you
+thankyou okay thank you good bye
+thankyou you rock
+thankyou and thats all thank you and good bye
+thankyou thank you and good bye
+thankyou sorry about my mistakes thank you good bye
+thankyou noise thank you good bye
+thankyou thank you goodbye noise
+thankyou okay thank you goodbye
+thankyou uh thank you good bye
+thankyou thank you goodbye
+thankyou thank you goodbye noise thank you goodbye
+thankyou breath thank you goodbye
+thankyou thank you
+thankyou okay thank you
+thankyou thanks goodbye
+thankyou ah thank you goodbye
+thankyou thank you noise
+thankyou thank you good bye
+thankyou breath thank you very much goodbye
+thankyou thanks
+thankyou noise thank you goodbye
+thankyou unintelligible thank you goodbye
+thankyou uh okay thank you good bye
+thankyou thank you bye
+thankyou um okay thank you good bye

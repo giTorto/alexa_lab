@@ -13,6 +13,27 @@ ask = Ask(app, "/")
 logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
 
+def is_echo_show_device(context):
+    '''
+    Detect display capabilities
+    :param context:
+    :return:
+    '''
+    try:
+        # Context for web simulator
+        if 'Display' in context['System']['device']['supportedInterfaces']:
+            return True
+    except KeyError:
+        return 'Display' in context
+
+
+def add_directives(response, directives):
+    # self._response['outputSpeech'] = outputSpeech
+    # self._response['reprompt'] = reprompt
+    # self._response['card'] = card
+    response._response['directives'] = directives
+    return response
+
 
 def update_dialog_history(session, request, dialog_history_attribute_name = 'dialog_history'):
     dialog_history = session.attributes.get(dialog_history_attribute_name)
@@ -139,10 +160,33 @@ def received_greet(first, second, third):
 @ask.intent("affirm")
 def received_affirm(first, second, third):
 
+    image_url = "https://www.onholdinc.com/mohblog/wp-content/uploads/2018/03/restaurant.jpg"
+
+    directives = [
+        {
+          "type": "Display.RenderTemplate",
+          "template": {
+            "type": "BodyTemplate1",
+            "token": "CheeseFactView",
+            "backButton": "HIDDEN",
+            "backgroundImage": image_url,
+            "title": "Booking performed",
+            "textContent": {
+              "primaryText": {
+                  "type": "RichText",
+                  "text": "Your booking was successful"
+              }
+            }
+          }
+        }
+    ]
 
     msg = render_template('utter_booked')
 
     response = statement(msg)
+
+    if is_echo_show_device(session):
+        response = add_directives(response, directives)
 
     return response
 
