@@ -2,15 +2,21 @@ import logging
 
 from random import randint
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 
 from flask_ask import Ask, request, session, context, question, statement
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 ask = Ask(app, "/")
 
 logging.getLogger("flask_ask").setLevel(logging.DEBUG)
+
+image_url = 'https://a32e22cd.ngrok.io/img/fox.jpg'
+
+@app.route('/img/fox.jpg')
+def send_js():
+    return send_file('static/img/mammals-88x**.jpg', mimetype='image/gif')
 
 
 def is_echo_show_device(context):
@@ -27,13 +33,14 @@ def is_echo_show_device(context):
         return 'Display' in context
 
 
-def add_directives(response, directives):
-    # self._response['outputSpeech'] = outputSpeech
-    # self._response['reprompt'] = reprompt
-    # self._response['card'] = card
-    response._response['directives'] = directives
-    return response
+class extended_question(question):
 
+    def display_render_extended(self, directives):
+        #self._response['outputSpeech'] = outputSpeech
+        #self._response['reprompt'] = reprompt
+        #self._response['card'] = card
+        self._response['directives'] = directives
+        return self
 
 def update_dialog_history(session, request, dialog_history_attribute_name = 'dialog_history'):
     dialog_history = session.attributes.get(dialog_history_attribute_name)
@@ -129,32 +136,96 @@ def received_inform(cuisine_type, price_slot, location_slot, number_people):
 
     if dialog_state.get('cuisine_type') is None:
         message = render_template("utter_ask_cuisine")
-        return question(message)
+
+        if is_echo_show_device(context):
+            return extended_question(message).reprompt(message).display_render_extended(list_directive(list_cuisine_options()))
+        return question(message).reprompt(message)
     elif dialog_state.get('location') is None:
         message = render_template("utter_ask_location")
-        return question(message)
+        return question(message).reprompt(message)
     elif dialog_state.get('price') is None:
         message = render_template("utter_ask_price")
-        return question(message)
+        return question(message).reprompt(message)
     elif dialog_state.get('number_people') is None:
         message = render_template("utter_ask_people")
-        return question(message)
+        return question(message).reprompt(message)
     else:
         message = render_template("utter_ask_book",
                                   people=dialog_state.get('number_people'),
                                   cuisine=dialog_state.get('cuisine_type'),
                                   location=dialog_state.get('location'))
-        return question(message)
+        return question(message).reprompt(message)
 
 
 @ask.intent("greet")
-def received_greet(first, second, third):
+def received_greet():
 
     update_dialog_history(session, request)
 
     msg = render_template('welcome')
 
-    return question(msg)
+    return question(msg).reprompt(msg)
+
+
+def create_list_item(element):
+    list_item = {
+        'token': element.get('text'),
+        'image': {
+            'contentDescription': element.get('text'),
+            'sources': [
+                {
+                    'url': element.get('image')
+                }
+            ]
+        },
+        'textContent': {
+            'primaryText': {
+                'text':  element.get('text'),
+                'type': 'RichText'
+            }
+        }
+    }
+    return list_item
+
+
+def list_directive(elements, back_button="VISIBLE"):
+    directives = {
+        'type': 'Display.RenderTemplate',
+        'template': {}
+    }
+    directive_list = {
+        "type": "ListTemplate1",
+        "token": "string",
+        "backButton": back_button,
+        "backgroundImage":{
+                'sources': [
+                    {
+                        'url':image_url
+                    }
+                ]
+            },
+        "title": "string",
+        "listItems": [
+            create_list_item(x) for x in elements
+        ]
+    }
+
+    directives['template'] = directive_list
+
+    return [directives]
+
+
+def list_cuisine_options():
+
+    options = [
+        {"image": image_url, "text": "italian cuisine"},
+        {"image": image_url, "text": "mexican cuisine"},
+        {"image": image_url, "text": "seafood"},
+        {"image": image_url, "text": "chinese"},
+        {"image": image_url, "text": "japanese"}
+    ]
+
+    return options
 
 
 @ask.intent("affirm")
@@ -169,12 +240,18 @@ def received_affirm(first, second, third):
             "type": "BodyTemplate1",
             "token": "CheeseFactView",
             "backButton": "HIDDEN",
-            "backgroundImage": image_url,
+            "backgroundImage":{
+                'sources': [
+                    {
+                        'url':image_url
+                    }
+                ]
+            },
             "title": "Booking performed",
             "textContent": {
               "primaryText": {
                   "type": "RichText",
-                  "text": "Your booking was successful"
+                  "primaryText": "Your booking was successful"
               }
             }
           }
@@ -185,8 +262,9 @@ def received_affirm(first, second, third):
 
     response = statement(msg)
 
-    if is_echo_show_device(session):
-        response = add_directives(response, directives)
+    print("echo show device: {} ".format(is_echo_show_device(context)))
+    if is_echo_show_device(context):
+        response = extended_question(msg).display_render_extended(directives)
 
     return response
 

@@ -10,7 +10,7 @@ utter_ask_price: How much would you like to spend?
 
 utter_answer_request: I'm not able to help you with that right now, maybe in the future.
 
-utter_ask_book: Do you want me to book for {{people}} {{cuisine}} in the {{location}} area?
+utter_ask_book: Do you want me to book in a {{cuisine}} restauran for {{people}} in the {{location}} area?
 
 utter_booked: Ok. You are all set. Booking was successful.
 
