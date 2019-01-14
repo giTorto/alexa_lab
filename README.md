@@ -65,3 +65,6 @@ https://developer.amazon.com/blogs/alexa/post/2af6851b-0216-4e82-9aba-6fa2aec755
 https://developer.amazon.com/docs/custom-skills/display-template-reference.html
 https://developer.amazon.com/blogs/alexa/post/12826e9e-e06a-4ab4-a583-8e074709a9f3/how-to-build-alexa-skills-for-echo-show
 https://developer.amazon.com/docs/custom-skills/display-interface-reference.html#full-json-response
+
+https://developer.amazon.com/blogs/alexa/post/2af6851b-0216-4e82-9aba-6fa2aec755d5/how-to-get-started-with-the-new-alexa-presentation-language-to-build-multimodal-alexa-skills
+https://developer.amazon.com/alexa/console/ask/displays
