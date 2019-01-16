@@ -32,8 +32,8 @@ git clone https://github.com/giTorto/alexa_lab.git
 
 ## from out of the console
 - edit venv: /home/giulianTrt/alexa_lab_venv
-- edit the working directory: /home/giulianTrt/alexa_lab
-- edit the source directory:  /home/giulianTrt/alexa_lab
+- edit the working directory: /home/giulianTrt/alexa_lab/pt1_basic_skill
+- edit the source directory:  /home/giulianTrt/alexa_lab/pt1_basic_skill
 - edit the wsgi:  /var/www/giuliantrt_pythonanywhere_com_wsgi.py
 - set up the endpoint on alexa skill endpoint: https://giulianTrt.pythonanywhere.com/
 - test
@@ -68,3 +68,4 @@ https://developer.amazon.com/docs/custom-skills/display-interface-reference.html
 
 https://developer.amazon.com/blogs/alexa/post/2af6851b-0216-4e82-9aba-6fa2aec755d5/how-to-get-started-with-the-new-alexa-presentation-language-to-build-multimodal-alexa-skills
 https://developer.amazon.com/alexa/console/ask/displays
+https://developer.amazon.com/docs/custom-skills/create-and-edit-custom-slot-types.html

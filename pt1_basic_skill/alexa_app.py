@@ -15,7 +15,6 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
 
 @ask.launch
-
 def new_game():
 
     welcome_msg = render_template('welcome')
@@ -29,10 +28,9 @@ def fallback_intent():
 
     return question(fall_back_message)
 
+
 @ask.intent("YesIntent")
-
 def next_round():
-
     numbers = [randint(0, 9) for _ in range(3)]
 
     round_msg = render_template('round', numbers=numbers)
@@ -43,7 +41,6 @@ def next_round():
 
 
 @ask.intent("AnswerIntent", convert={'first': int, 'second': int, 'third': int})
-
 def answer(first, second, third):
 
     winning_numbers = session.attributes['numbers']

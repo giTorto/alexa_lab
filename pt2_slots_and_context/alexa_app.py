@@ -127,7 +127,7 @@ def received_inform(cuisine_type, price_slot, location_slot, number_people):
 
 
 @ask.intent("greet")
-def received_greet(first, second, third):
+def received_greet():
 
     update_dialog_history(session, request)
 
@@ -137,8 +137,7 @@ def received_greet(first, second, third):
 
 
 @ask.intent("affirm")
-def received_affirm(first, second, third):
-
+def received_affirm():
 
     msg = render_template('utter_booked')
 

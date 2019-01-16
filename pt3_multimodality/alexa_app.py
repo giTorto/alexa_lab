@@ -12,7 +12,7 @@ ask = Ask(app, "/")
 
 logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
-image_url = 'https://a32e22cd.ngrok.io/img/fox.jpg'
+image_url = 'https://giulianTrt.pythonanywhere.com/img/fox.jpg'
 
 @app.route('/img/fox.jpg')
 def send_js():
